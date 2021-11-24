@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gameimg {
+  width: 300px;
+  height: 200px;
+  align-self: center;
+}
+
+.screen {
+  width: 400px;
+  height: 250px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  align-self: center;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 25px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-right: 25px
+}
+
+.filterButtonOn {
+  border-radius: 8px;
+  background-color:rgb(7, 190, 7);
+}
+
+.filterButtonOff {
+  border-radius: 8px;
+  background-color:rgb(238, 34, 34);
+}
+
+.game {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding-bottom: 25px;
+  background-color: silver;
+}
+
+.remove{
+  width: auto;
+  align-self: center;
+  border-radius: 8px;
+}
+
+.details {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+  margin-bottom: 150px;
+}
+
+.favButton {
+  border-radius: 8px;
+  background-color: pink;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detailspage {
+  display: flex;
+  flex-direction: column;
+}
+
+.video {
+  align-self: center;
+}
